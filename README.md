@@ -40,3 +40,25 @@
     * *temporarily saves changes*
 * git **stash apply** 
     * *restores temporary changes*
+
+## Viewing Change and Commit History
+
+* git **diff**
+    * *shows changes between commits and the working directory*
+* git **log**
+    * *displays commit history*
+* git **log --oneline**
+    * *displays a summarized commit history*
+
+## Undoing Changes
+
+* git **checkout --** *file-name*  
+    * *Reverts changes in the working directory for a specific file*
+* git **reset**  
+    * *Unstages a file, keeping changes in the working directory*
+* git **revert** *commit-hash*  
+    * *Creates a new commit that undoes changes from a specified commit*
+* git **merge --abort**  
+    * *Aborts the current merge process and returns to the pre-merge state*
+
+  
