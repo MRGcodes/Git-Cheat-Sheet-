@@ -40,5 +40,3 @@
     * *temporarily saves changes*
 * git **stash apply** 
     * *restores temporary changes*
-
-    PRACTICE CHANGE
