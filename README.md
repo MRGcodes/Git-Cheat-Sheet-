@@ -50,15 +50,33 @@
 * git **log --oneline**
     * *displays a summarized commit history*
 
+## Tagging
+
+* git **tag**  
+    * *lists all tags*
+* git **tag** *tag-name*  
+    * *creates a new tag*
+* git **tag** *tag-name* *commit-id*  
+    * *assigns a tag to a specific commit*
+* git **tag -a** *tag-name* -m "*message*"  
+    * *creates an annotated tag with a message*
+* git **tag -d** *tag-name*  
+    * *deletes a local tag*
+* git **push origin** *tag-name*  
+    * *pushes a tag to the remote repository*
+* git **push origin --tags**  
+    * *pushes all tags to the remote repository*
+
+
 ## Undoing Changes
 
 * git **checkout --** *file-name*  
-    * *Reverts changes in the working directory for a specific file*
+    * *reverts changes in the working directory for a specific file*
 * git **reset**  
-    * *Unstages a file, keeping changes in the working directory*
+    * *unstages a file, keeping changes in the working directory*
 * git **revert** *commit-hash*  
-    * *Creates a new commit that undoes changes from a specified commit*
+    * *areates a new commit that undoes changes from a specified commit*
 * git **merge --abort**  
-    * *Aborts the current merge process and returns to the pre-merge state*
+    * *aborts the current merge process and returns to the pre-merge state*
 
   
