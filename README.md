@@ -75,7 +75,7 @@
 * git **reset**  
     * *unstages a file, keeping changes in the working directory*
 * git **revert** *commit-hash*  
-    * *areates a new commit that undoes changes from a specified commit*
+    * *Creates a new commit that undoes changes from a specified commit*
 * git **merge --abort**  
     * *aborts the current merge process and returns to the pre-merge state*
 
